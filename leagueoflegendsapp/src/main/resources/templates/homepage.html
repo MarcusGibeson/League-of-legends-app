@@ -7,6 +7,34 @@
     <title>League of Legends App</title>
 </head>
 <body>
-    
+    <!-- SIDEBAR -->
+    <section id="sidebar">
+        <span> LoL App </span>
+        <ul class="side-menu top">
+            <li class="active">
+                <a th:href="@{/dashboard}" id="dashboard-link">
+                    <span class="text"> Dashboard </span>
+                </a>
+            </li>
+            <li>
+                <a th:href="@{/champions}" id="champions-link">
+                    <span class="text"> Champions </span>
+                </a>
+            </li>
+            <li>
+                <a th:href="@{/guide}" id="guide-link">
+                    <span class="text"> Guide </span>
+                </a>
+            </li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a th:href="@{/settings}" id="settings-link">
+                    <span class="text"> Settings</span>
+                </a>
+            </li>
+
+        </ul>
+    </section>
 </body>
 </html> 

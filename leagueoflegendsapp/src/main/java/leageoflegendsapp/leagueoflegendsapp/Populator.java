@@ -45,13 +45,29 @@ public class Populator implements CommandLineRunner{
             "Ahri",
             "the Nine-Tailed Fox",
             "Essence Theft",
-            "INNATE: Ahri generates a stack of Essence Fragment whenever she kills a Minion icon minion or Monster icon monster. At 9 stacks, she consumes them to Heal power icon heal herself for 35 − 95 (based on level) (+ 20% AP).Additionally, whenever Ahri scores a champion Damage rating takedown within 3 seconds of damaging them, she consumes their essence to heal herself"
-        )
+            "INNATE: Ahri generates a stack of Essence Fragment whenever she kills a minion or monster. At 9 stacks, she consumes them to heal herself. Additionally, whenever Ahri scores a champion takedown within 3 seconds of damaging them, she consumes their essence to heal herself.",
+            "/images/Champions/Aatrox/Ahri_Passive.webp",
+            "Orb of Deception",
+            "ACTIVE: Ahri sends her orb in the target direction that deals magic damage to enemies hit. At maximum range, the orb homes back to her to deal the same in true damage to enemies hit.",
+            "/images/Champions/Ahri/Ahri_Q.webp",
+            "Fox-Fire",
+            "ACTIVE: Ahri gains 40% bonus movement speed that decays over 2 seconds and conjures three flames which orbit her clockwise for up to 2.5 seconds. After 0.25 seconds, each flame targets a visible enemy, or after 0.4 seconds targets the closest visible enemy in range, dealing magic damage. The damage is doubled against minions below Health icon 20% maximum health.",
+            "/images/Champions/Ahri/Ahri_W.webp",
+            "Charm",
+            "ACTIVE: Ahri blows forth a kiss in the target direction that deals magic damage to the first enemy hit, knocking them down and Charm icon charming and slowing them by 65% for a duration.",
+            "/images/Champions/Ahri/Ahri_E.webp",
+            "Spirit Rush",
+            "ACTIVE: Ahri Dash dashes to the target location and then fires essence bolts to up to 3 nearby visible enemies, each dealing magic damage. Spirit Rush can be recast twice more within 15 seconds of the activation at no additional cost, with a 1-second static cooldown between casts. Consuming a champion's essence with Essence Theft Essence Theft while Spirit Rush is active extends the recast duration by and up to 10 seconds, and grants an additional recast, storing up to 3 recasts at a time. RECAST: Ahri mimics the first cast's effects. Spirit Rush's recast duration will persist even after having used all recasts. Fox-Fire Fox-Fire can be cast during the dash. Spirit Rush will cast at max range if cast beyond that.",
+            "images/Champions/Ahri/Ahri_Spirit_Rush.webp",
+            "/images/Champions/Ahri/Ahri.webp",
+            null
+        );
 
 
 
 
         championService.save(Aatrox);
+        championService.save(Ahri);
 
 
     }
