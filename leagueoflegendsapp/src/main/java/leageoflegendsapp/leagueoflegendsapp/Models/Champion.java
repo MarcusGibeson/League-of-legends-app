@@ -39,6 +39,9 @@ public class Champion {
             String skillEImageURL, String skillR, String skillRDescription, String skillRImageURL, String imageURL, String linkURL) {
         this.name = name;
         this.description = description;
+        this.skillP = skillP;
+        this.skillPDescription = skillPDescription;
+        this.skillPImageURL = skillPImageURL;
         this.skillQ = skillQ;
         this.skillQDescription = skillQDescription;
         this.skillQImageURL = skillQImageURL;
@@ -51,9 +54,6 @@ public class Champion {
         this.skillR = skillR;
         this.skillRDescription = skillRDescription;
         this.skillRImageURL = skillRImageURL;
-        this.skillP = skillP;
-        this.skillPDescription = skillPDescription;
-        this.skillPImageURL = skillPImageURL;
         this.imageURL = imageURL;
         this.linkURL = linkURL;
     }
